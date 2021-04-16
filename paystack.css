@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* block-size: 100%;
+    scroll-snap-type: y; */
+    font-family: "graphik", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #011b33;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+.header2 {
+    font-size: 2.70rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Boing", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.general_para {
+    line-height: 2.0;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.paystack_logo {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.create_account {
+    background-color: #3bb75e;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 500;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.nav {
+    position: fixed;
+    background-color: #F1FEF4F2;
+    width: 100%;
+    padding-left: 50PX;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 4;
+}
+
+.nav_left {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.nav_list {
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.nav_list li {
+    align-items: center;
+    height: 60px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.nav_list a {
+    text-decoration: none;
+    font-family: "graphik", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #011b33;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: -0.01em;
+}
+
+
+/* .slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6,
+.slide7 {
+    scroll-snap-align: center;
+    block-size: 110vh;
+} */
+
+.slide1 {
+    background-color: #F1FEF4F2;
+    padding-bottom: 60px;
+}
+
+.slide1_content {
+    position: relative;
+    padding-top: 150px;
+    padding-left: 75px;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    color: #011b33;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+.slide1 h1 {
+    font-size: 3.0rem;
+    font-weight: 800;
+    max-width: 50vw;
+    font-family: "Boing"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slide1_content>p {
+    font-weight: 700px;
+    font-size: 1.2rem;
+    max-width: 50vw;
+}
+
+.slide1_content>.create_account {
+    margin-top: 60px;
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+.slide1_bottom_content {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    color: #011b33;
+    padding-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide1_bottom_content_left {
+    display: block;
+}
+
+.slide1_bottom_content_right {
+    font-weight: 800;
+    max-width: 450px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.slide1_bottom_content_logos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.slide1_bottom_content_logo {
+    width: 100px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.slide1_bottom_content_logo_axa {
+    height: 30px;
+}
+
+.slide2 {
+    background-color: white;
+    display: flex;
+    flex-shrink: 1;
+    padding-bottom: 150px;
+}
+
+.slide2 p {
+    line-height: 2.0;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.slide2_left {
+    width: 50%;
+    padding-left: 75px;
+    padding-top: 150px;
+    line-height: 1.5;
+    color: #011b33;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: 1.3rem;
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slide2_right {
+    max-width: 50%;
+    padding-top: 350px;
+    padding-right: 75px;
+}
+
+.paystack_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.paystack_benefits li {
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+
+.slide2_gif {
+    height: 750px;
+    border-radius: 4px;
+    padding-top: 120px;
+}
+
+.slide3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    padding-bottom: 150px;
+}
+
+.slide3_left {
+    width: 50%;
+    padding-left: 90px;
+}
+
+.slide3_gif {
+    height: 580px;
+    width: 520px;
+    border-radius: 4px;
+}
+
+.slide4 {
+    background-color: white;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.slide4_left {
+    object-fit: contain;
+    width: 55%;
+    padding-left: 75px;
+}
+
+.slide4_right {
+    width: 45%;
+    padding-right: 60px;
+}
+
+.slide5 {
+    width: 100%;
+    height: 120vh;
+    background: url(https://paystack.com/assets/img/patterns/checked-pattern-blue.png), #F1FEF4F2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+    /* opacity: 0.3; */
+}
+
+.slide5_text {
+    padding-top: 150px;
+    padding-left: 75px;
+    padding-bottom: 50px;
+}
+
+.paystack_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.paystack_card {
+    background-color: white;
+    color: #011b33;
+    height: 382.250px;
+    width: 389px;
+    z-index: 2;
+    border: 1px solid white;
+    padding: 48px 32px 48px 32px;
+}
+
+.paystack_card h3 {
+    font-size: 24px;
+    font-family: "Boing", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paystack_card_icon {
+    height: 100px;
+    width: 100px;
+}
+
+.slide6 {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+.slide6 h2,
+.slide6 p {
+    width: 53.33%;
+    padding-left: 75px;
+}
+
+.slide6 p {
+    padding-bottom: 100px;
+}
+
+.brand_icons {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.brand_logo {
+    max-width: 160px;
+    height: 25px;
+}
+
+.slide7 {
+    background: url("//paystack.com/assets/img/patterns/circular-pattern.png"), #F1FEF4F2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* opacity: 0.2; */
+    background-blend-mode: saturation;
+    padding-bottom: 150px;
+}
+
+.slide7_text {
+    padding-left: 75px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    width: 50%;
+}
+
+.slide7_text>h2 {
+    padding-bottom: 20px;
+}
+
+.slide7_card_icon {
+    height: 30px;
+}
+
+.card_name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.slide7_card_image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.slide7_card_name {
+    padding-left: 20px;
+}
+
+.slide7_card_span {
+    font-weight: 200;
+}
+
+.slide8 {
+    background: url("https://paystack.com/assets/img/patterns/curved-pattern.png"), #Ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: lighten;
+    height: 400px;
+    opacity: 0.2;
+    color: rgba(1, 27, 51, 1);
+}
+
+.slide8_content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: rgba(1, 27, 51, 1)
+}
+
+.slide8>p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 120px;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.slide8_left {
+    width: 50%;
+}
+
+
+/* .page_left3 p,
+.page4_right p,
+.page5_text p,
+.slide6 p,
+.page7_text p  */
+
+.custom_list li {
+    padding-bottom: 12px;
+}
